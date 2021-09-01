@@ -19,8 +19,16 @@
 --Join Genre g on al.GenreId = g.Id
 --WHERE g.name = 'Soul';
 
-SELECT a.ArtistName, g.name
-FROM Album Al
-Join Artist a on Al.ArtistId = a.Id
-Join genre g on Al.GenreId = g.Id
-WHERE g.Name = 'Jazz' OR g.Name = 'Rock';
+--STEP 5:
+--SELECT a.ArtistName, g.name
+--FROM Album Al
+--Join Artist a on Al.ArtistId = a.Id
+--Join genre g on Al.GenreId = g.Id
+--WHERE g.Name = 'Jazz' OR g.Name = 'Rock';
+
+--STEP 6:
+--SELECT al.Title
+--FROM Song s
+--RIGHT JOIN Album al
+--ON s.AlbumId = al.Id
+--WHERE s.AlbumId IS NULL;
