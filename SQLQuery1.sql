@@ -32,3 +32,6 @@
 --RIGHT JOIN Album al
 --ON s.AlbumId = al.Id
 --WHERE s.AlbumId IS NULL;
+
+--STEP 7:
+--INSERT INTO Artist (ArtistName, YearEstablished) VALUES ('Mariya Takeuchi', 1978)
