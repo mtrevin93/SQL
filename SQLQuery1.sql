@@ -12,5 +12,9 @@
 --FROM Song s
 --JOIN Artist a on s.ArtistId = a.Id
 
-SELECT * FROM SONG;
-
+--STEP 4:
+--SELECT a.ArtistName, g.name
+--FROM Album al
+--Join Artist a on al.ArtistId = a.Id
+--Join Genre g on al.GenreId = g.Id
+--WHERE g.name = 'Soul';
