@@ -39,3 +39,6 @@
 --STEP 8:
 --INSERT INTO Album (Title, ReleaseDate, AlbumLength, Label, ArtistId, GenreId) VALUES ('Variety', 24/04/1984, 2534, 'Moon Records', 1002, 7);
 
+--STEP 9:
+--INSERT INTO Song (Title, SongLength, ReleaseDate, GenreId, ArtistId, AlbumId) VALUES ('Plastic Love', 291, 11/19/1984, 7, 1002, 1004); 
+
