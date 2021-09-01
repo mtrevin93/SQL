@@ -42,3 +42,11 @@
 --STEP 9:
 --INSERT INTO Song (Title, SongLength, ReleaseDate, GenreId, ArtistId, AlbumId) VALUES ('Plastic Love', 291, 11/19/1984, 7, 1002, 1004); 
 
+----STEP 10:
+--SELECT al.Title, s.Title, a.ArtistName
+--FROM Album al
+--JOIN Artist a
+--	ON al.ArtistId = a.Id
+--JOIN Song s
+--	ON s.AlbumId = al.Id
+--	WHERE s.Title = 'Plastic Love';
