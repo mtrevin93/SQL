@@ -50,3 +50,15 @@
 --JOIN Song s
 --	ON s.AlbumId = al.Id
 --	WHERE s.Title = 'Plastic Love';
+
+--update Song
+--set ReleaseDate = '04/25/1984'
+--WHERE Id = 1002;
+
+--STEP 11:
+--SELECT COUNT(Song.Id), al.Title
+--	FROM SONG
+--JOIN Album al
+--	ON Song.AlbumId = al.Id
+--GROUP BY al.Title
+
