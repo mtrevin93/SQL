@@ -35,3 +35,7 @@
 
 --STEP 7:
 --INSERT INTO Artist (ArtistName, YearEstablished) VALUES ('Mariya Takeuchi', 1978)
+
+--STEP 8:
+--INSERT INTO Album (Title, ReleaseDate, AlbumLength, Label, ArtistId, GenreId) VALUES ('Variety', 24/04/1984, 2534, 'Moon Records', 1002, 7);
+
