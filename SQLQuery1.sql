@@ -91,7 +91,14 @@
 --FROM Album al
 --WHERE al.AlbumLength = (SELECT MAX(al.AlbumLength) FROM Album al);
 
-STEP 16:
-SELECT s.Title, s.SongLength 
+--STEP 16:
+--SELECT s.Title, s.SongLength 
+--FROM Song s
+--WHERE s.SongLength = (SELECT MAX(s.SongLength) FROM Song s);
+
+STEP 17:
+SELECT s.Title as SongTitle, s.SongLength, al.Title as AlbumTitle
 FROM Song s
+JOIN Album al
+	ON s.AlbumId = al.Id
 WHERE s.SongLength = (SELECT MAX(s.SongLength) FROM Song s);
