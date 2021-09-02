@@ -62,3 +62,11 @@
 --	ON Song.AlbumId = al.Id
 --GROUP BY al.Title
 
+--STEP 12:
+--SELECT COUNT(s.Id), a.ArtistName
+--	FROM Album al
+--JOIN Song s 
+--	ON s.albumId = al.Id
+--JOIN Artist a
+--	On s.artistId = a.Id
+--GROUP BY a.ArtistName;
