@@ -71,9 +71,17 @@
 --	On s.artistId = a.Id
 --GROUP BY a.ArtistName;
 
-STEP 13: 
-SELECT COUNT(s.Id), g.Name
-FROM Song s
-JOIN Genre g
-	ON s.GenreId = g.Id
-GROUP BY g.Name;
+--STEP 13: 
+--SELECT COUNT(s.Id), g.Name
+--FROM Song s
+--JOIN Genre g
+--	ON s.GenreId = g.Id
+--GROUP BY g.Name;
+
+--STEP 14:
+--SELECT COUNT(al.Label), a.ArtistName
+--FROM Album al
+--JOIN Artist a
+--	ON al.ArtistId = a.Id
+--GROUP BY a.ArtistName
+--HAVING COUNT(al.Label) >= 2;
