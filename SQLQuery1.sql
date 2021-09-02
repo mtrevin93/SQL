@@ -70,3 +70,10 @@
 --JOIN Artist a
 --	On s.artistId = a.Id
 --GROUP BY a.ArtistName;
+
+STEP 13: 
+SELECT COUNT(s.Id), g.Name
+FROM Song s
+JOIN Genre g
+	ON s.GenreId = g.Id
+GROUP BY g.Name;
