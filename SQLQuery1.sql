@@ -85,3 +85,8 @@
 --	ON al.ArtistId = a.Id
 --GROUP BY a.ArtistName
 --HAVING COUNT(al.Label) >= 2;
+
+STEP 15:
+SELECT al.Title, al.AlbumLength
+FROM Album al
+WHERE al.AlbumLength = (SELECT MAX(al.AlbumLength) FROM Album al);
